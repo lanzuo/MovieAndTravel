@@ -1,0 +1,113 @@
+/*
+name : index.css;
+create date : 2013/8/28;
+description : hanggai-web-index;
+modify history : 
+                1、finish css style for index.html / 20130828
+                2、finish css style for list-movie.html、list-place.html、detail-movie.html、detail-place.html / 20130829
+*/
+
+body {margin:0 auto;width: 950px;background: #f8fdff;font-size: 15px}
+a {text-decoration: none;color: #000}
+a:hover {text-decoration: underline;}
+p{line-height: 135%}
+
+/*header start*/
+header {padding: 20px 25px 15px 25px;width: 900px}
+.logo {height: 61px;width: 137px;background: url(../img/css-sprite-base.png) -10px -10px}
+.logo a {display: block;;height: 61px;width: 137px}
+.logo,.menu {float: left;}
+.log-section {float: right;padding-top: 30px}
+.menu {padding-top: 20px}
+.menu li {float: left;margin-right: 35px}
+.log-section dt {display: none;}
+.log-section dd {float: left;margin-right:10px;height: 22px;width: 32px}
+.log-section dd a {display: block;height:22px;background: url(../img/css-sprite-base.png) -147px -10px;text-indent: -6000px}
+.log-section dd:nth-child(2) a {background-position: -147px -10px}
+.log-section dd:nth-child(3) a {background-position: -179px -10px}
+.log-section dd:nth-child(4) a {background-position: -211px -10px}
+.log-section dd:nth-child(2) a:hover {background-position: -147px -32px}
+.log-section dd:nth-child(3) a:hover {background-position: -179px -32px}
+.log-section dd:nth-child(4) a:hover {background-position: -211px -32px}
+/*header end*/
+
+.commend-image {clear: both;}
+.commend-image li {position: relative;width:100%;line-height: 0}
+.commend-image li p {position: absolute;bottom: 0;height: 65px;width:100%;line-height:65px;background:rgba(6,6,6,0.54);font-size: 18px;text-indent: 24px}
+.commend-image li p a {color: #fff;}
+
+.image-list {margin: 20px 0 -30px}
+.image-list h3 {font-size: 24px;padding:15px 0;}
+.image-list ul {margin-right: -100px;line-height: 0}
+.image-list li {float: left;position: relative;margin:0 28px 28px 0;line-height: 0}
+.image-list li p {position: absolute;bottom: 0;width:100%;height:36px;line-height:36px;background:rgba(6,6,6,0.54);text-indent: 18px}
+.image-list li p a {color: #fff;}
+
+
+/*footer start*/
+footer {margin-top:30px;padding:15px 0;width:100%;background: #f3fbff}
+footer p {padding: 0 15px;float:left;line-height: 135%}
+footer p:last-child {float: right;}
+/*footer end*/
+
+nav {margin-bottom:30px;text-indent:24px;line-height:50px;background: #f3fbff}
+nav h3 {font-size: 22px}
+
+.grid-left,.grid-right {float: left;}
+.grid-left {margin-right:30px;width: 625px}
+.single-list li.list-item {margin-bottom:28px;padding:28px;background: #f3fbff}
+.single-list dl {position:relative}
+.single-list dd {line-height: 0}
+.single-list dt a {color: #fff}
+.single-list dt {position: absolute;bottom:0;width:100%;height:36px;line-height:36px;background:rgba(6,6,6,0.54);text-indent: 18px}
+.single-list li p {padding-top: 10px}
+.detail-des dt {display: none}
+.detail-des .zoom-out {position:absolute;display: block;right:15px;top:10px;height: 18px;width: 22px;background: url(../img/css-sprite-base.png) -243px -32px;}
+.detail-des .zoom-out:hover {background-position:-243px -10px;}
+.detail-des .pre,.detail-des .next {position: absolute;bottom:15px;right:15px;display: block;height: 22px;width: 22px;background: url(../img/css-sprite-base.png)}
+.detail-des .pre {right:45px;background-position:-269px -10px;}
+.detail-des .pre:hover {background-position:-269px -32px;}
+.detail-des .next {background-position:-291px -10px;}
+.detail-des .next:hover {background-position:-291px -32px;}
+
+.grid-right {width: 295px;background: #f3fbff}
+.movie-type,.movie-top10,.movie-info,.map-info {clear:both;padding: 28px;}
+.movie-type dt,.movie-top10 dt,.movie-info dt {margin-bottom: 10px;line-height: 35px;background:#fff;text-indent: 18px}
+.movie-type dd,.movie-top10 dd,.movie-info dd {line-height: 35px;text-indent: 18px;font-size: 14px}
+.movie-type dd {float: left;width: 50%;}
+.movie-top10 {clear: both;}
+.movie-top10 dd {list-style-type:decimal}
+
+.relate-list {padding:28px;background: #f3fbff}
+.relate-list h3 {margin-bottom:28px;font-size: 20px}
+.relate-list dl {clear:left;margin-bottom:28px;width: 100%}
+.relate-list dt {float:left;margin-right: 20px;}
+
+.relate-list cite {font-size: 20px}
+.relate-list p {margin:12px 0;color: #5e5e5e}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
